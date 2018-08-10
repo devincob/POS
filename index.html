@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-cmn-Hans" translate="no">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>闪店餐饮</title>
+        <link href="res/favicon.ico" rel="icon" type="image/x-icon" />
+    </head>
+    <body style="margin: 0;padding: 0;"></body>
+    <script type="text/javascript" src="init.js"></script>
+    <script>
+        // 静态资源CDN地址
+        // sd.froot = location.href.substring(0, location.href.lastIndexOf('/') + 1).replace('\\', '/');
+        // 服务器请求地址 
+        sd.host = 'http://v5.ishandian.com.cn/pos/';
+        // web 服务器地址,当前文件所放置的服务器地址
+        sd.webHost = sd.froot + 'index.html';
+        // 初始化
+        sd.controller(['css/reset.css','css/layout.css','js/sd/main.js']);
+    </script>
+
+</html>
